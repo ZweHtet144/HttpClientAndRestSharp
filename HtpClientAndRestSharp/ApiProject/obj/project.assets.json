@@ -10,6 +10,16 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "SharedProject/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SharedProject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedProject.dll": {}
+        }
       }
     }
   },
@@ -40,11 +50,17 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "SharedProject/1.0.0": {
+      "type": "project",
+      "path": "../SharedProject/SharedProject.csproj",
+      "msbuildProject": "../SharedProject/SharedProject.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "SharedProject >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -73,7 +89,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyProjects\\EntityFrameworkProjects\\DotNetCore\\HttpClientAndRestSharp\\HtpClientAndRestSharp\\SharedProject\\SharedProject.csproj": {
+              "projectPath": "D:\\MyProjects\\EntityFrameworkProjects\\DotNetCore\\HttpClientAndRestSharp\\HtpClientAndRestSharp\\SharedProject\\SharedProject.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiProject", "ApiProject\Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeRestApi", "ConsumeRestApi\ConsumeRestApi.csproj", "{1CD848CD-9726-420B-B8BF-B163776B716D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedProject", "SharedProject\SharedProject.csproj", "{313D08D1-C735-404A-B2BA-2B07C889F750}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1CD848CD-9726-420B-B8BF-B163776B716D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CD848CD-9726-420B-B8BF-B163776B716D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CD848CD-9726-420B-B8BF-B163776B716D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313D08D1-C735-404A-B2BA-2B07C889F750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313D08D1-C735-404A-B2BA-2B07C889F750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313D08D1-C735-404A-B2BA-2B07C889F750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313D08D1-C735-404A-B2BA-2B07C889F750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

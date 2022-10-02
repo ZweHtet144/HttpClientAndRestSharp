@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3i6sg2/fRxu7b/8kATca+HA4VOPzQnAJJhZ9Unwhtw9Xkgqfr2lPJAxpUFx5seP/PRPAtXoJwxgukIcMmyL/8Q==",
+  "dgSpecHash": "iEIS2BHONCmGqFN6X8JrH69vtcNVBdF5y36T/st73HM3ZFgnpDdHD8l5kGh6K/R2oWO8AUbI7lVWd3p4+XEHDg==",
   "success": true,
   "projectFilePath": "D:\\MyProjects\\EntityFrameworkProjects\\DotNetCore\\HttpClientAndRestSharp\\HtpClientAndRestSharp\\ApiProject\\ApiProject.csproj",
   "expectedPackageFiles": [
